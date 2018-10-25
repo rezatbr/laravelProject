@@ -1,0 +1,19 @@
+@font-face {
+    font-family: IRANsans;
+    src: url("/admin/assets/font/iran-sans.eot") format("embedded-opentype"),
+    url("/admin/assets/font/iran-sans.ttf") format("truetype"),
+    url("/admin/assets/font/iran-sans.woff") format("woff")
+}
+*{
+    font-family: IRANsans;
+}
+active2 {
+  background-color: #3f51b5 !important;
+  color: white;
+}
+th,td{
+  text-align: center;
+}
+.row{
+	display: none;
+}

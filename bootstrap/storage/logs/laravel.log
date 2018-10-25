@@ -1,0 +1,11 @@
+[2018-07-02 13:35:40] production.ERROR: InvalidArgumentException: The "" directory does not exist. in /home/hezaredigi/domains/hezaredigital.com/public_html/vendor/symfony/finder/Finder.php:547
+Stack trace:
+#0 /home/hezaredigi/domains/hezaredigital.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\Component\Finder\Finder->in(false)
+#1 /home/hezaredigi/domains/hezaredigital.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\Foundation\Bootstrap\LoadConfiguration->getConfigurationFiles(Object(Illuminate\Foundation\Application))
+#2 /home/hezaredigi/domains/hezaredigital.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#3 /home/hezaredigi/domains/hezaredigital.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(208): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#4 /home/hezaredigi/domains/hezaredigital.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith(Array)
+#5 /home/hezaredigi/domains/hezaredigital.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#6 /home/hezaredigi/domains/hezaredigital.com/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#7 /home/hezaredigi/domains/hezaredigital.com/public_html/index.php(56): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}  
